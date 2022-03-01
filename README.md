@@ -16,7 +16,7 @@
 |STT|Tên|MSSV|Chức vụ|
 |:---|:---|:---:|:---|
 |1|[Lê Quang Huy](https://github.com/LeQuangHuyUIT)|19521617|Nhóm trưởng|
-|2|[Phạm Trung Hiếu](...)|19521512|Thành viên|
+|2|[Phạm Trung Hiếu](https://github.com/hieupt123)|19521512|Thành viên|
 |3|[Trịnh Minh Hoàng](https://github.com/minhhoanggit)|19521547|Thành viên|
 
 ## GIỚI THIỆU MÔN HỌC
