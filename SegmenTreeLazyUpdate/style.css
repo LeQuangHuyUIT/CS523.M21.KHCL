@@ -1,0 +1,22 @@
+html, body {
+  background-color: #263238;
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  margin: auto;
+}
+.ui-elements{
+  position:relative;
+  top: 700px;
+  width: 900px;
+  margin: auto;
+  color: white;
+}
+.ui-slider-range{
+  background-color: #4caf50;
+}
+main{
+  text-align:center;
+}
