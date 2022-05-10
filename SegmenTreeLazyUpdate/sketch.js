@@ -1,5 +1,5 @@
-var  segTreeSize = [0, 16];
-var  searchSpace = [0, 16];
+var  segTreeSize = [0, 11];
+var  searchSpace = [0, 11];
 var  selected_node = -1;
 var  mouse_button_down = false;
 var  start_sum = false;
