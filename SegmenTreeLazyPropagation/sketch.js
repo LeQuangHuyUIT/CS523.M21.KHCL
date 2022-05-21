@@ -120,8 +120,11 @@ function draw_global_result()
   push();
   fill(255);
   textSize(28);
+  let val = result;
+  if(result === segTree.NeutralElement)
+    val = "oo";
   if(!isNaN(result))
-    text("Sum in Range [" + searchSpace[0] + ", " + searchSpace[1] + "]: " + result, 0, 20);
+    text("Min in Range [" + searchSpace[0] + ", " + searchSpace[1] + "]: " + val, 0, 20);
   else
     text("Range [" + searchSpace[0] + ", " + searchSpace[1] + "] ", 0, 20);
   pop();
@@ -160,10 +163,19 @@ function drawTable(){
 
     // Add some text to the new cells:
     cell1.innerHTML = i;
-    cell2.innerHTML = segTree.tree[i]; 
-    cell3.innerHTML = segTree.lazy[i]; 
+
+    var val1 = segTree.tree[i];
+    if(segTree.tree[i] === segTree.NeutralElement)
+      val1 = "oo";
+
+    var val2 = segTree.lazy[i];
+    if(val2 === segTree.NeutralElement)
+      val2 = "oo";
+
+    cell2.innerHTML = val1; 
+    cell3.innerHTML = val2; 
   }
-  var newTale = new p5.Table(segTree.tree)  
+  // var newTale = new p5.Table(segTree.tree)  
 
 }
 
